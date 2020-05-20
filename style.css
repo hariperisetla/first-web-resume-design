@@ -1,0 +1,380 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+    margin-top: 50px;
+    background-color: rgba(113, 183, 255, 0.3); 
+    margin: auto;
+    
+}
+
+ .navbar-light {
+background-color: #F2F2F2;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+
+.navbar-nav {
+    font-size: 19px;   
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding: 1rem;
+}
+
+
+.navbar-light .navbar-brand {
+    color: #010B40;
+    margin-left: 2rem;
+    
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.btn-outline-info {
+  color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-info:hover {
+  background-color: #007bff;
+   
+}
+
+#bg-img {
+    background: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-position: center top;
+}
+
+
+
+.profile-section {
+    margin-top: -200px;
+}
+
+
+.photo-section {
+    margin: auto;
+    
+}
+
+.my-photo {
+    padding: 5px;
+    border-radius: 5%;
+    display: block;
+    margin: auto;
+    
+}
+
+.bio-info {
+    padding: 30px 10px;
+}
+
+.socialwrapper {
+    margin: auto;
+    display: block;
+}
+
+.fa {
+    margin: 15px;
+}
+
+.resume-button {
+    margin: 10px;
+    padding:  10px 30px;
+}
+
+.contact-button {
+    margin: 10px;
+    padding: 10px 30px;
+}
+
+.my-photo {
+    width: 100%;
+}
+
+#my-name {
+    margin-bottom: -5px;
+}
+
+.bio-details {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-section {
+    margin: auto; 
+    padding: 100px 50px;
+    margin: 50px 0px;
+    background-color: ;
+    color: #000;
+}
+
+.about-property {
+    margin-bottom: 30px;
+}
+
+.skills-section {
+    margin: auto;
+    padding: 100px 10px;    
+    background-color: #023a75;
+    color: #fff;
+}
+
+.skills-property {
+    margin: 30px;
+}
+
+.skills-property-main {
+    margin: 20px 10px 80px 10px;
+}
+
+
+
+
+.skills-row-languages {
+    margin-top: 50px;
+}
+
+
+.skills-individual-padding {
+    padding: 30px;
+}
+
+
+.education-section {
+    margin: auto;
+    padding: 100px 10px;
+    margin: 80px 0px;
+    background-color: ;
+    color: #000;
+}
+
+.education-row-height {
+    padding: 30px;
+    margin: auto;
+}
+
+.education-border-right {
+    padding: 20px;
+    background-color: black;
+}
+
+
+.education-border-left {
+    border-left: solid 2px black;
+}
+
+.education-property {
+    margin-bottom: 30px;
+}
+
+.extra-curricular-section {
+    margin: auto;
+    padding: 100px 10px;
+    margin: 80px 0px;
+    background-color: #023a75;
+    color: #fff;
+}
+
+.extra-curricular-property {
+    margin-bottom: 30px;   
+}
+
+.extra-curricular-row-height {
+    padding: 30px;
+    margin: auto;
+}
+
+
+
+.my-details-contact {
+   
+    padding: 30px 30px;
+    
+    
+}
+
+.form-main-padding {
+    padding: 30px 10px;
+    margin: auto;
+}
+
+.contact-section {
+    margin: auto;
+    margin: 80px 0px;
+    padding: 100px 10px;
+    color: #000;
+}
+
+.btn-outline-info-modify {
+    color: #000;
+    border-color: #000;
+}
+
+.footer-section {
+    background-color: #333333 ; 
+    
+    color: #fff;
+    margin: auto;
+}
+
+.footer-text {
+    margin: auto;
+    padding: 50px;
+    
+}
+
+.footer-text-property {
+    
+}
+
+.fa-custom {
+    color: #000;
+}
+
+.fa-custom:hover {
+    color: #007bff;
+}
+
+
+
+.crunchify-top:hover {
+	color: #fff !important;
+	background-color: #ed702b;
+	text-decoration: none;
+}
+ 
+.crunchify-top {
+	display: none;
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+	width: 4rem;
+	height: 4rem;
+	line-height: 3.2rem;
+	font-size: 2rem;
+	color: #fff;
+	background-color: #007bff;
+	text-decoration: none;
+	border-radius: 3.2rem;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1124px) {
+    .navbar-nav {
+    font-size: 16px;   
+}
+}
+
+@media only screen and (max-width: 1024px) {
+    .navbar-nav {
+    font-size: 16px; 
+}
+    
+    .navbar-expand-sm .navbar-nav .nav-link {
+    padding: 10px;
+}
+}
+
+@media only screen and (max-width: 957px) {
+    .navbar-nav {
+    font-size: 15px;   
+}
+    
+    .navbar-expand-sm .navbar-nav .nav-link {
+    padding: 10px;
+}
+}
+
+@media only screen and (max-width: 905px) {
+    .navbar-nav {
+    font-size: 14px;   
+}
+    
+    .navbar-expand-sm .navbar-nav .nav-link {
+    padding: 10px;
+}
+}
+
+
+@media only screen and (max-width: 540px) {
+    .profile-section {
+    margin-top: -400px;
+}
+    
+    .navbar-light .navbar-brand {
+    color: #010B40;
+    margin-left: 0rem;
+    
+}
+    .bio-info {
+    padding: 30px 30px;
+}
+    .my-details-contact {
+   
+    padding: 30px 30px;
+    
+    
+}
+    
+    .gotopbtn {
+        font-size: 1.3em;   
+    }
+    .navbar-nav {
+    font-size: 20px; 
+}
+    
+}
+
+
+
+
+/* Color Theme Swatches in Hex */
+
+.Mothership---digital-asset-exchange-platform-1-hex { color: #F2293A; }
+.Mothership---digital-asset-exchange-platform-2-hex { color: #010B40; }
+.Mothership---digital-asset-exchange-platform-3-hex { color: #091B40; }
+.Mothership---digital-asset-exchange-platform-4-hex { color: #007bff
+#039BFF #0BADBF; }
+.Mothership---digital-asset-exchange-platform-5-hex { color: #F2F2F2; }
+
+/* Color Theme Swatches in RGBA */
+.Mothership---digital-asset-exchange-platform-1-rgba { color: rgba(242, 41, 57, 1); }
+.Mothership---digital-asset-exchange-platform-2-rgba { color: rgba(1, 10, 63, 1); }
+.Mothership---digital-asset-exchange-platform-3-rgba { color: rgba(8, 27, 63, 1); }
+.Mothership---digital-asset-exchange-platform-4-rgba { color: rgba(11, 173, 191, 1); }
+.Mothership---digital-asset-exchange-platform-5-rgba { color: rgba(242, 242, 242, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Mothership---digital-asset-exchange-platform-1-hsla { color: hsla(354, 88, 55, 1); }
+.Mothership---digital-asset-exchange-platform-2-hsla { color: hsla(230, 96, 12, 1); }
+.Mothership---digital-asset-exchange-platform-3-hsla { color: hsla(219, 75, 14, 1); }
+.Mothership---digital-asset-exchange-platform-4-hsla { color: hsla(185, 88, 39, 1); }
+.Mothership---digital-asset-exchange-platform-5-hsla { color: hsla(0, 0, 95, 1); }
